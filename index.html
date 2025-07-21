@@ -41,6 +41,14 @@
           width="2">
         </a-text>
       </a-marker>
+      <script>
+        window.addEventListener('click', function () {
+        var video = document.querySelector('#vidiomasjid');
+        if (video) {
+        video.play();
+          }
+        });
+      </script>
       <a-entity camera></a-entity>
     </a-scene>
   </body>
